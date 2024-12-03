@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Jane Doe</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="contacts">
+            <h1>Jane Doe</h1>
+            
+            <div> 
+                <span class="fa-stack fa-1x envelope" style="flex-shrink: 0;">
+                    <i class="fas fa-circle fa-stack-2x"></i> 
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse " ></i>
+                </span>
+                jdoe@jeemail.com 
+            </div>
+            <div> <span class="fa-stack fa-1x phone"><i class="fa fa-phone "></i> </span>   +13456764598 </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#about">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <img style="width: 400px; margin: 0px 40px;" src="/assets/photo.webp" alt="photo" />
+            <div class="section right">
+                <h2>Hi, I'm Jane Doe! &#128075;</h2>
+                <p>I am a full stack developer with 2 years of experience in both application and presentaion layers. 
+                    I have worked on applicarions and microservices deployed on IBM Cloud. I am an avid user of IBM 
+                    Watson Services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a few.
+                </p>
+            </div>
+        </section>
+
+        <section id="Skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="card">
+                    <img src="/assets/html.png" alt="HTML" />
+                    <h3>HTML</h3>
+                    <h3> 2 years experience</h3>
+                </div>
+                <div class="card">
+                    <img src="/assets/js.png" alt="JavaScript" />
+                    <h3>JavaScript</h3>
+                    <h3> 1.5 years experience</h3>
+                </div>
+                <div class="card">
+                    <img src="/assets/java.png" alt="Java" />
+                    <h3>Java</h3>
+                    <h3> .5 years experience</h3>
+                </div>
+                <div class="card">
+                    <img src="/assets/react.png" alt="React" />
+                    <h3>React</h3>
+                    <h3> 1 year experience</h3>
+                </div>
+                <div class="card">
+                    <img src="/assets/node.png" alt="Node" />
+                    <h3>Node.js</h3>
+                    <h3> 1 years experience</h3>
+                </div>
+                <div class="card">
+                    <img src="/assets/css.png" alt="CSS" />
+                    <h3>CSS</h3>
+                    <h3> 2 years experience</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Chatbot</h3>
+                    <ul>
+                        <li> Developed a secure a website integrated with chatbot for an automobile client using HTML, CSS, 
+                            JavaScript, and IBM Watson Assistant.
+                        </li>
+                    </ul>
+                    <div class="box"></div>
+                </div>
+                <div class="project">
+                    <h3>Sentiment Analyzer</h3>
+                    <ul>
+                        <li>
+                            Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce
+                            platform using IBM NLU
+                        </li>
+                    </ul>
+                    <div class="box"></div>
+                </div>
+                <div class="project">
+                    <h3>Fashion Website</h3>
+                    <ul>
+                        <li>
+                            Created a styled multi-page website for a new player in the fashion industry and integreted it 
+                            with shopping cart, using stripe for payment gateway.
+                        </li>
+                    </ul>
+                    
+                </div>
+                
+            </div>
+
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <div class="recommendations">
+                <div class="recommendation">
+                    
+                    <p>
+                        "Jane is a very hardworking and dedicated developer. She has a good understanding of the 
+                        technologies she works with and is always eager to learn more. She is a great team player and 
+                        has a very positive attitude."
+                    </p>
+                </div>
+                <div class="recommendation">
+                    
+                    <p>
+                        Jane is a very hardworking and dedicated developer. She has a good understanding of the 
+                        technologies she works with and is always eager to learn more. She is a great team player and 
+                        has a very positive attitude.
+                    </p>
+                </div>
+                <div class="recommendation">
+                    
+                    <p>
+                        Jane is a very hardworking and dedicated developer. She has a good understanding of the 
+                        technologies she works with and is always eager to learn more. She is a great team player and 
+                        has a very positive attitude.
+                    </p>
+                </div>
+            <form>
+                <h3>Leave a Recommendation</h3>
+                <input type="text" id="name" name="name" placeholder="Name (Optional)" required>
+                <textarea id="message" name="message" placeholder="Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <button class="top"> <span><i class="fa-solid fa-circle-up"></i> </span> </button>
+    </footer>
+
+    
+</body>
+</html>
